@@ -1,0 +1,19 @@
+.card {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.75rem 0.75rem #00537d1f;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: all 250ms ease-in-out;
+  }
+
+  img {
+    border-radius: 0.5rem;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+}
