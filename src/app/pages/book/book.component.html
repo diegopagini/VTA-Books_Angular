@@ -1,1 +1,13 @@
-<p>book works!</p>
+<button (click)="onBack()" class="book__back-button"><</button>
+
+<div class="book" *ngIf="book">
+  <picture class="book__img-container">
+    <img class="book__img" [src]="book.img" [alt]="book.title" />
+  </picture>
+
+  <div class="book__text">
+    <h1>{{ book.title }}</h1>
+    <h2>{{ book.author }}</h2>
+    <span>{{ book.opinion }}</span>
+  </div>
+</div>

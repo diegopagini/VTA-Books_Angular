@@ -9,7 +9,6 @@
     "ng:serve:pro": "ng serve --cconfiguration=production -o",
     "ng": "ng",
     "start": "ng serve",
-    "test": "ng test",
     "watch": "ng build --watch --configuration development"
   },
   "private": true,
@@ -31,12 +30,6 @@
     "@angular/cli": "~16.1.4",
     "@angular/compiler-cli": "~16.1.4",
     "@types/jasmine": "~4.3.5",
-    "jasmine-core": "~5.0.1",
-    "karma": "~6.4.2",
-    "karma-chrome-launcher": "~3.2.0",
-    "karma-coverage": "~2.2.1",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.1.6"
   }
 }

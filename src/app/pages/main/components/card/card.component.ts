@@ -18,7 +18,7 @@ import { Book } from '@pages/main/interfaces/book.interface';
 })
 export class CardComponent {
   @Input({ required: true }) book: Book;
-  _router = inject(Router);
+  private readonly _router = inject(Router);
 
   onClick() {
     this._router.navigateByUrl(`${this.book.id}`);
